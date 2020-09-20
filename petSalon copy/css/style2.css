@@ -1,0 +1,86 @@
+body{
+    background-color: #d0f2fb;
+}
+#form{
+    /* background-image: url(../img/woodTrial3.jpg); */
+    background-color: white;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+#form h2{
+    display: flow;
+    text-align: center;
+    padding-top: 1rem;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+.btn-success{
+    font-size: 1.3rem;
+    background-color: #8cbade;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border: 1px solid #8cbade;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+.btn-success:hover{
+    /* the !important means that the computer HAS TO execute this one. It's the most important */
+    background-color: blue!important; 
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+table{
+    width: 100%;
+    text-align: left;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-right: 6rem;
+    padding: 2rem;
+}
+thead{
+    text-transform: uppercase;
+    padding-top: 8rem;
+    margin-top: 8rem;
+}
+tbody{
+    padding: 12rem;
+}
+table th td{
+    text-transform: uppercase;
+    padding: 8rem;
+    border-top: 1px solid black;
+    color: red;
+}
+tr{
+    padding-right: 8rem;
+    padding-bottom: 8rem;
+    margin: 2rem;
+    
+}
+/* Services Styling */
+#serviceBlocks{
+    display: flex;
+    align-items: column;
+}
+#serviceBlocks h3{
+    font-size: 2rem;
+}
+#serviceBlocks img{
+    height: 12rem;
+    width: 12rem;
+    border: 1px solid #8cbade;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+#shower #hairCut #toeNail #fullService{
+    border: 1px solid white;
+}
+#shower:hover{
+    background-color: white;
+}
+#hairCut:hover{
+    background-color: white;
+}
+#toeNail:hover{
+    background-color: white;
+}
+#fullService:hover{
+    background-color: white;
+}
